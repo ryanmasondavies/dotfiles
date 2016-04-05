@@ -5,8 +5,8 @@
 # This installs Oh My Zsh if it isn't already installed.
 
 # Check for Oh My Zsh folder
-OH_MY_ZSH=$(cd ~/.oh-my-zsh && pwd)
-if [ ! -d ${OH_MY_ZSH} ];
+OH_MY_ZSH="$HOME/.oh-my-zsh"
+if [ ! -d $OH_MY_ZSH ];
 then
   echo "  Installing Oh My Zsh for you."
 	
