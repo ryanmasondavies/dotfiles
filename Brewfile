@@ -22,6 +22,8 @@ brew 'spaceman-diff'
 brew 'spark'
 brew 'unrar'
 brew 'wget'
+brew 'xctool'
+brew 'xcbuild'
 brew 'youtube-dl'
 
 cask 'atom'
