@@ -16,4 +16,18 @@ then
 	mv ~/.zshrc ~/.zshrc-default
 fi
 
+# Go to dotfiles folder
+cd "$(dirname $0)"/..
+
+# Find the theme files
+THEME_SOURCE=zsh/honukai-iterm-zsh/honukai.zsh-theme
+THEME_DESTINATION=${OH_MY_ZSH}/themes/honukai.zsh-theme
+
+# Copy theme file if needed
+if [ ! -f ${THEME_DESTINATION} ];
+then
+	echo "  Installing Honukai theme for you."
+	cp ${THEME_SOURCE} ${THEME_DESTINATION}
+fi
+
 exit 0
