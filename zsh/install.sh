@@ -11,6 +11,9 @@ then
   echo "  Installing Oh My Zsh for you."
 	
 	sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+	
+	# Move default zshrc to make room for symlink
+	mv ~/.zshrc ~/.zshrc-default
 fi
 
 exit 0
