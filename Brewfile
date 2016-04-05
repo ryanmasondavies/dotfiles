@@ -24,7 +24,6 @@ brew 'spark'
 brew 'unrar'
 brew 'wget'
 brew 'xctool'
-brew 'xcbuild'
 brew 'youtube-dl'
 brew 'zsh-syntax-highlighting'
 
