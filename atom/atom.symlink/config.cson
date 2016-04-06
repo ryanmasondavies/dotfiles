@@ -16,11 +16,12 @@
       "vendor"
     ]
     themes: [
-      "unity-ui"
-      "glacier-syntax"
+      "atom-dark-ui"
+      "solarized-dark-syntax"
     ]
   editor:
     fontFamily: "Menlo"
+    fontSize: 11
     invisibles: {}
     showIndentGuide: true
     softWrapAtPreferredLineLength: true
