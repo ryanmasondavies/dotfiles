@@ -5,11 +5,16 @@
 # Installs useful Atom packages.
 #
 
-# Git packages
+# Styling
+apm install file-icons
+apm install minimap
+apm install pigments
+
+# Git
 apm install git-plus
 apm install git-time-machine
 
-# Linter packages
+# Linting
 apm install linter
 apm install linter-clang
 apm install linter-swiftc
