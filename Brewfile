@@ -27,6 +27,7 @@ brew 'xctool'
 brew 'youtube-dl'
 brew 'zsh-syntax-highlighting'
 
+cask '1password'
 cask 'appcleaner'
 cask 'atom'
 cask 'dash'
