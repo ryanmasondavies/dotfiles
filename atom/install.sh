@@ -6,4 +6,5 @@
 #
 
 apm install git-plus
-apm install atom-link
+apm install git-time-machine
+apm install atom-lint
