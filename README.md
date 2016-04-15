@@ -51,4 +51,4 @@ this script in `bin/`.
 ## Thanks
 
 I forked [Zach Holman's](http://github.com/holman)' excellent
-[dotfiles](http://github.com/holman/dotfiles) and owe a significant **thank you** to Mr. Holman for his project. I've made significant changes to make a more iOS-oriented configuration (see the `xcode` folder), but the foundation is his.
+[dotfiles](http://github.com/holman/dotfiles) and owe a significant **thank you** to Mr. Holman for his project. I've made substantial changes to make a more iOS-oriented configuration (see the `xcode` folder), but the foundation is his.
