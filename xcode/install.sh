@@ -19,7 +19,7 @@ echo "Installing Xcode themes for you."
 echo "Downloading Xcode themes from GitHub..."
 
 git clone --depth 1 --branch master \
-  https://github.com/hdoria/xcode-themes \
+  https://github.com/iotize/xcode-themes \
   ${GIT_THEMES_DIR}
 
 echo "Installing Xcode themes..."
