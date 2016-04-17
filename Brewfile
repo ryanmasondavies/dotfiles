@@ -29,7 +29,6 @@ brew 'zsh-syntax-highlighting'
 
 cask 'appcleaner'
 cask 'atom'
-cask 'dash'
 cask 'disk-inventory-x'
 cask 'firefox'
 cask 'flux'
