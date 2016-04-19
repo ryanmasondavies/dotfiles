@@ -6,9 +6,10 @@ then
   alias git=$hub_path
 fi
 
-# The rest of my fun git aliases
 alias gl='git pull --prune'
-alias glog="git log --graph --pretty=format:'%Cred%h%Creset %an: %s - %Creset %C(yellow)%d%Creset %Cgreen(%cr)%Creset' --abbrev-commit --date=relative"
+
+# git log taken from: http://stackoverflow.com/a/9074343/862016
+alias glog="git log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n''          %C(white)%s%C(reset) %C(dim white)- %an%C(reset)' --all"
 alias gp='git push origin HEAD'
 alias gd='git diff'
 alias gc='git commit'
