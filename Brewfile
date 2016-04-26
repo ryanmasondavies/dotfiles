@@ -39,12 +39,15 @@ cask 'logitech-gaming-software'
 cask 'parallels10'
 cask 'sketch'
 cask 'skype'
+cask 'sonos'
 cask 'spectacle'
 cask 'steam'
 cask 'vlc'
 
 # Get these from the MAS
-# cask '1password'
-# cask 'evernote'
-# cask 'slack'
+# - 1password
+# - evernote
+# - slack
+# - tweetbot
+# - xcode
 
