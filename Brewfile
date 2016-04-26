@@ -46,6 +46,7 @@ cask 'vlc'
 
 # Get these from the MAS
 # - 1password
+# - dash
 # - evernote
 # - slack
 # - tweetbot
