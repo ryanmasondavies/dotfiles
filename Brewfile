@@ -44,6 +44,7 @@ cask 'steam'
 cask 'vlc'
 
 # Get these from the MAS
+# cask '1password'
 # cask 'evernote'
 # cask 'slack'
 
