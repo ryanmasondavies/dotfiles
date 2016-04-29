@@ -28,6 +28,7 @@ brew 'youtube-dl'
 brew 'zsh-syntax-highlighting'
 
 cask 'appcleaner'
+cask 'alfred'
 cask 'atom'
 cask 'disk-inventory-x'
 cask 'firefox'
