@@ -3,5 +3,10 @@ syntax on
 " Show line numbers
 set number
 
+" Enable smart case (insensitive searches unless query includes capital
+" letters - then it will automatically switch to case sensitive. Handy.)
+set ignorecase
+set smartcase
+
 " Wrap gitcommit file types at the appropriate length
 filetype indent plugin on
