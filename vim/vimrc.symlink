@@ -3,6 +3,9 @@ syntax on
 " Show line numbers
 set number
 
+" Highlight cursor line
+set cursorline
+
 " Enable smart case (insensitive searches unless query includes capital
 " letters - then it will automatically switch to case sensitive. Handy.)
 set ignorecase
