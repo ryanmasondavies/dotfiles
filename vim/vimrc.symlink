@@ -1,4 +1,12 @@
-syntax on
+execute pathogen#infect()
+
+" Color Scheme
+let g:solarized_termcolors = 256
+set background=dark
+colorscheme solarized
+
+" Airline color scheme
+let g:airline_theme = "solarized"
 
 " Show line numbers
 set number
@@ -6,10 +14,3 @@ set number
 " Highlight cursor line
 set cursorline
 
-" Enable smart case (insensitive searches unless query includes capital
-" letters - then it will automatically switch to case sensitive. Handy.)
-set ignorecase
-set smartcase
-
-" Wrap gitcommit file types at the appropriate length
-filetype indent plugin on
