@@ -185,7 +185,12 @@ defaults write com.apple.TextEdit PlainTextEncodingForWrite -int 4
 # Terminal                                                                    #
 ###############################################################################
 
-
+# Install powerline/fonts - Meslo
+git clone https://github.com/powerline/fonts.git ~/Downloads/powerline-fonts
+cd ~/Downloads/powerline-fonts/Meslo
+find . -name '*.otf' -exec open {} \;
+cd -
+echo "Powerline Meslo fonts installed."
 
 ###############################################################################
 # Spectacle.app                                                               #
