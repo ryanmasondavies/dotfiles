@@ -44,6 +44,7 @@ cask 'skype'
 cask 'sonos'
 #cask 'spectacle'
 cask 'steam'
+cask 'textmate'
 cask 'vlc'
 
 # Get these from the MAS
