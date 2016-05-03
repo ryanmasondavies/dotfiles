@@ -13,3 +13,7 @@ set number
 " Highlight cursor line
 set cursorline
 
+" Enable Ruby syntax for common files without extensions
+au BufReadPost Gemfile set syntax=ruby
+au BufReadPost Podfile set syntax=ruby
+
