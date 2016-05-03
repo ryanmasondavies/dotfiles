@@ -42,7 +42,7 @@ cask 'parallels10'
 cask 'sketch'
 cask 'skype'
 cask 'sonos'
-cask 'spectacle'
+#cask 'spectacle'
 cask 'steam'
 cask 'vlc'
 
