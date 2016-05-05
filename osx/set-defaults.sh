@@ -148,10 +148,16 @@ defaults write com.apple.Safari ShowFavoritesBar -bool false
 ###############################################################################
 
 # Disable automatic spell checking
-defaults write com.apple.mail SpellCheckingBehavior -string "NoSpellCheckingEnabled"
+#defaults write com.apple.mail SpellCheckingBehavior -string "NoSpellCheckingEnabled"
+
+# Enable inline spell checking
+defaults write com.apple.mail SpellCheckingBehavior -string "InlineSpellChecking"
 
 # Add the keyboard shortcut ⌘ + Enter to send an email in Mail.app
-defaults write com.apple.mail NSUserKeyEquivalents -dict-add "Send" -string "@\\U21a9"
+#defaults write com.apple.mail NSUserKeyEquivalents -dict-add "Send" -string "@\\U21a9"
+
+# Recover keyboard shortcut cmd + d for sending, for machines that had the line above applied
+defaults delete com.apple.mail NSUserKeyEquivalents
 
 # Disable inline attachments (just show the icons)
 defaults write com.apple.mail DisableInlineAttachmentViewing -bool true
