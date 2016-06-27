@@ -1,8 +1,8 @@
 execute pathogen#infect()
 
 " Color Scheme
-set background=dark
-colorscheme solarized
+set background=light
+" colorscheme solarized
 
 " Airline color scheme
 let g:airline_theme = "solarized"
