@@ -1,7 +1,7 @@
 execute pathogen#infect()
 
 " Color Scheme
-set background=light
+set background=dark
 " colorscheme solarized
 
 " Airline color scheme
