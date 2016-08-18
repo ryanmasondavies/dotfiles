@@ -35,7 +35,7 @@ There's a few special files in the hierarchy.
 ## Install
 
 ```sh
-git clone https://github.com/iotize/dotfiles.git ~/.dotfiles
+git clone git@github.com:cameroncooke/dotfiles.git ~/.dotfiles
 cd ~/.dotfiles
 script/bootstrap
 ```
