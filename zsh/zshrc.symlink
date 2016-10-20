@@ -113,3 +113,11 @@ do
 done
 
 unset config_files
+
+source $HOME/.rvm/scripts/rvm
+
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
+source $HOME/.git-flow-completion.zsh

@@ -27,6 +27,7 @@ brew 'wget'
 brew 'xctool'
 brew 'youtube-dl'
 brew 'zsh-syntax-highlighting'
+brew 'git-flow'
 
 #cask 'appcleaner'
 #cask 'alfred'

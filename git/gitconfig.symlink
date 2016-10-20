@@ -35,3 +35,11 @@
 	required = true
 	clean = git-lfs clean %f
 	smudge = git-lfs smudge %f
+
+#driver for merging Xcode project files
+[mergetool "mergepbx"]
+    cmd = mergepbx "$BASE" "$LOCAL" "$REMOTE" -o "$MERGED"
+
+[merge "mergepbx"]
+        name = XCode project files merger
+        driver = mergepbx %O %A %B
