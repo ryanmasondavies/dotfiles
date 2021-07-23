@@ -69,8 +69,8 @@ defaults write com.apple.dock mru-spaces -bool false
 # Automatically hide and show the Dock
 defaults write com.apple.dock autohide -bool true
 
-# Set dock to the left side
-defaults write com.apple.dock orientation -string left
+# Set dock to bottom
+defaults write com.apple.dock orientation -string bottom
 
 # Hot corners
 # Disable all hot corners
