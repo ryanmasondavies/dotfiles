@@ -16,7 +16,6 @@ brew 'zsh-syntax-highlighting'
 
 cask 'alfred'
 cask 'gpg-suite'
-cask 'ksdiff'
 cask 'microsoft-teams'
 cask 'paw'
 cask 'proxyman'
