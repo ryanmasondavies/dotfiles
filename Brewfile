@@ -15,6 +15,7 @@ brew 'z'
 brew 'zsh-syntax-highlighting'
 
 cask 'alfred'
+cask 'github'
 cask 'gpg-suite'
 cask 'iterm2'
 cask 'microsoft-teams'
