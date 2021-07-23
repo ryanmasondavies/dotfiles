@@ -23,3 +23,5 @@ cask 'paw'
 cask 'proxyman'
 cask 'rectangle'
 cask 'sf-symbols'
+cask 'visual-studio-code'
+
