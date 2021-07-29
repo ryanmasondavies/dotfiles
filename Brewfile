@@ -7,6 +7,7 @@ tap 'github/gh'
 
 brew 'imagemagick'
 brew 'gh'
+brew 'jq'
 brew 'openssl'
 brew 'mitmproxy'
 brew 'readline'
