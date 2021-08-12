@@ -11,7 +11,6 @@ brew 'jq'
 brew 'openssl'
 brew 'readline'
 brew 'rbenv'
-brew 'xctool'
 brew 'z'
 brew 'zsh-syntax-highlighting'
 
