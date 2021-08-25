@@ -15,7 +15,6 @@ brew 'z'
 brew 'zsh-syntax-highlighting'
 
 cask 'alfred'
-cask 'firefox'
 cask 'github'
 cask 'gpg-suite'
 cask 'microsoft-excel'
