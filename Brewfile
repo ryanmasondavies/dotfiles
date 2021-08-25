@@ -26,5 +26,4 @@ cask 'paw'
 cask 'proxyman'
 cask 'sf-symbols'
 cask 'tower'
-cask 'zotero'
 
