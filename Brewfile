@@ -19,7 +19,7 @@ cask 'alfred'
 cask 'github'
 cask 'gpg-suite'
 cask 'microsoft-teams'
-cask 'postman'
+cask 'paw'
 cask 'sf-symbols'
 cask 'visual-studio-code'
 
