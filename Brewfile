@@ -20,6 +20,7 @@ cask 'github'
 cask 'gpg-suite'
 cask 'microsoft-teams'
 cask 'paw'
+cask 'proxyman'
 cask 'sf-symbols'
 cask 'visual-studio-code'
 
