@@ -9,6 +9,7 @@ brew 'imagemagick'
 brew 'gh'
 brew 'jq'
 brew 'openssl'
+brew 'mas'
 brew 'mitmproxy'
 brew 'readline'
 brew 'rbenv'
@@ -23,4 +24,8 @@ cask 'paw'
 cask 'proxyman'
 cask 'sf-symbols'
 cask 'visual-studio-code'
+
+mas 'Kaleidoscope', id: 587512244
+mas 'Magnet', id: 441258766
+mas 'Xcode', id: 497799835
 
