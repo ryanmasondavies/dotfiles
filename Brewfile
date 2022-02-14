@@ -17,13 +17,13 @@ brew 'z'
 brew 'zsh-syntax-highlighting'
 
 cask 'alfred'
-cask 'github'
 cask 'gpg-suite'
 cask 'microsoft-teams'
 cask 'paw'
 cask 'proxyman'
 cask 'sf-symbols'
 cask 'visual-studio-code'
+cask 'tower'
 
 mas 'Kaleidoscope', id: 587512244
 mas 'Magnet', id: 441258766
