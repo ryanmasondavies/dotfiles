@@ -21,18 +21,23 @@
     whitespace = nowarn
 [fetch]
     prune = true
-[mergetool]
-    keepBackup = false
+[merge]
+	tool = Kaleidoscope
 [mergetool]
     prompt = false
+    keepBackups = false
 [mergetool "mergepbx"]
     cmd = mergepbx "$BASE" "$LOCAL" "$REMOTE" -o "$MERGED"
+[mergetool "Kaleidoscope"]
+	cmd = ksdiff --merge --output \"$MERGED\" --base \"$BASE\" -- \"$LOCAL\" \"$REMOTE\"
 #driver for merging Xcode project files
 [merge "mergepbx"]
     name = Xcode project files merger
     driver = mergepbx %O %A %B
 [difftool]
     prompt = false
+[difftool "Kaleidoscope"]
+	cmd = ksdiff --partial-changeset --relative-path \"$MERGED\" -- \"$LOCAL\" \"$REMOTE\"
 [help]
     autocorrect = 1
 [push]
