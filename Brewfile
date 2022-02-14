@@ -19,10 +19,10 @@ brew 'zsh-syntax-highlighting'
 cask 'alfred'
 cask 'gpg-suite'
 cask 'microsoft-teams'
+cask 'nova'
 cask 'paw'
 cask 'proxyman'
 cask 'sf-symbols'
-cask 'visual-studio-code'
 cask 'tower'
 
 mas 'Kaleidoscope', id: 587512244
