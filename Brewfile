@@ -36,4 +36,3 @@ mas 'Magnet', id: 441258766
 mas 'OmniFocus 3', id: 1346203938
 mas 'OmniGraffle 7', id: 1142578753
 mas 'Xcode', id: 497799835
-
