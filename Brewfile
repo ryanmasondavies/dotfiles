@@ -17,6 +17,7 @@ brew 'z'
 brew 'zsh-syntax-highlighting'
 
 cask 'alfred'
+cask 'app-cleaner'
 cask 'gpg-suite'
 cask 'microsoft-teams'
 cask 'nova'
