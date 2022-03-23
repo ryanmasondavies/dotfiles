@@ -34,5 +34,6 @@ mas 'iA Writer', id: 775737590
 mas 'Kaleidoscope', id: 587512244
 mas 'Magnet', id: 441258766
 mas 'OmniFocus 3', id: 1346203938
+mas 'OmniGraffle 7', id: 1142578753
 mas 'Xcode', id: 497799835
 
