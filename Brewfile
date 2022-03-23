@@ -29,6 +29,7 @@ cask 'sf-symbols'
 cask 'tower'
 cask 'zoom'
 
+mas 'Cascadea', id: 1432182561
 mas 'Kaleidoscope', id: 587512244
 mas 'Magnet', id: 441258766
 mas 'Xcode', id: 497799835
