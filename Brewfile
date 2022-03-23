@@ -17,7 +17,6 @@ brew 'z'
 brew 'zsh-syntax-highlighting'
 
 cask 'alfred'
-cask 'bbedit'
 cask 'gpg-suite'
 cask 'microsoft-teams'
 cask 'nova'
