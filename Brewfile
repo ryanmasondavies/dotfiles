@@ -27,6 +27,7 @@ cask 'paw'
 cask 'proxyman'
 cask 'sf-symbols'
 cask 'tower'
+cask 'zoom'
 
 mas 'Kaleidoscope', id: 587512244
 mas 'Magnet', id: 441258766
