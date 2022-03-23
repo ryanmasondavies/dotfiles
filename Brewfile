@@ -30,6 +30,7 @@ cask 'tower'
 cask 'zoom'
 
 mas 'Cascadea', id: 1432182561
+mas 'iA Writer', id: 775737590
 mas 'Kaleidoscope', id: 587512244
 mas 'Magnet', id: 441258766
 mas 'Xcode', id: 497799835
